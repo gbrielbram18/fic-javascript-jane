@@ -8,3 +8,7 @@ Tom que você mais gosta;
 -exiba a "myFavoriteTom" no console do browser
 
 */
+
+
+
+let Tom = Storage("digite a palavra tom" ${Storage})
