@@ -4,6 +4,5 @@ JS
 */
 let linguagem = "JavaScript";
 
-console.log("=JS" + linguagem)
-
-
+const JS = linguagem[0]+linguagem[4]
+console.log(JS);
