@@ -11,7 +11,8 @@ let casado = false;
 let valorProduto = 5.32;
 
 
-console.log("Meu nome e:" + nome);
+console.log("Meu nome e: " + nome);
+console.log(nome[0]);
 console.log("idade" , idade);
 console.log("casado?" + casado);
 console.log("R$" , valorProduto);
