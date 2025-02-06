@@ -11,4 +11,3 @@ Tom que você mais gosta;
 
 
 
-let Tom = Storage("digite a palavra tom" ${Storage})
