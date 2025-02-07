@@ -9,5 +9,13 @@
 
 let brazilianFood = [];
 
+//["coxinha" , null ," brigadeiro"]
 
-console.log()
+brazilianFood.push("coxinha",null, "brigadeiro")
+ //                    1       2       3
+ //no lugar do null, adicionar pãO de queijo
+
+console.log(brazilianFood[1])
+
+brazilianFood[1] = "pao de queijo";
+console.log(brazilianFood)
