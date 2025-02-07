@@ -1,8 +1,11 @@
-let text ="Estão chegando as provas"
+let text ="Estão chegando as provas";
 
 //tamanho string
-console.log(text.length)
+    console.log(text.length);
 
 //alteração de letra( (minuscula e maiucsscula)
-console.log( text.toLocaleLowerCase)
-console.log(text.toUpperCase)
+    console.log(text.toLocaleLowerCase());
+    console.log(text.toUpperCase());
+
+//replace
+    console.log("alterando" ,text.replace("provas", "avaliações"))
