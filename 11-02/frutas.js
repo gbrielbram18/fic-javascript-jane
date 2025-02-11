@@ -11,3 +11,14 @@
     
 */
 
+const frutas = ["morango", "banana", "mamao", "pera"];
+
+if(frutas.includes("abacaxi")) {
+    console.log("a string abacaxi exsite no array fruits.")
+} else if (fruits.includes("pera")){
+    console.log("a string pera existe no array fruits")
+} else {
+    console.log(" nem pera nem abacaxi existem no array fruits")
+}
+
+
