@@ -6,11 +6,11 @@
 */ 
 
 
-let numero = -5
+let numero = prompt("digite um numero")
 
-if ( numero >= 0 ) {
-    console.log(" o numero e positivo")
+if ( numero > 0 ) {
+    document.write('o numero ${} e possitivo')
 
-}else if (numero <=0 ) {
-    console.log( "o numero e negativo")
+}else if (numero < 0 ) {
+    document.write( '')
 }
