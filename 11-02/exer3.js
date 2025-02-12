@@ -8,10 +8,12 @@
     tambem esta funcionando 
 */
 
-let idade = prompt("digite sua idade")
+const idade = 18;
+const isAgeFirst = idade <=7;
+const isAgeLast = idade >= 65;
 
- if ( valor < 7 || valor > 65 ){
-    console.log(" sua entrada e gratis")
+ if ( isAgeFirst || isAgeLast ){
+    console.log(" sua entrada e gratis");
  }else{
-    console.log( "sua entrada ficou R$30,00")
+    console.log( "sua entrada ficou R$30,00");
  }  
