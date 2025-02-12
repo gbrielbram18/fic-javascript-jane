@@ -10,7 +10,7 @@
 
 let idade = prompt("digite sua idade")
 
- if (idade < 7 && valor < 7 || valor > 65 && idade >65){
+ if ( valor < 7 || valor > 65 ){
     console.log(" sua entrada e gratis")
  }else{
     console.log( "sua entrada ficou R$30,00")
