@@ -12,7 +12,7 @@ let upperCaseCities = []
 console.log(cities.length)
 
 for ( let i = 0 ; i< cities.length; i++){
-
+upperCaseCities.push(cities[i].upperCaseCities())
 }
 
 console.log(upperCaseCities)
