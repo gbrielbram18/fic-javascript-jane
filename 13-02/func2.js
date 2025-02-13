@@ -2,6 +2,11 @@ function mostrarNome (nome){
    document.write(nome)
 }
 
+//função para criar frase 
+//mostrar frase 
+
+
+
 function pularLinha (){
     document.write("<br><br>")
 }
