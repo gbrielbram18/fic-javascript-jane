@@ -6,6 +6,11 @@ function mostrarNome (nome){
 //mostrar frase 
 
 
+function mostrarFrase(){
+    document.write(frase)
+}
+
+
 
 function pularLinha (){
     document.write("<br><br>")
