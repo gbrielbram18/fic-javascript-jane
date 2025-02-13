@@ -1,9 +1,14 @@
 function mostrarNome (nome){
    document.write(nome)
 }
-document.write("<br><br>");
+
+function pularLinha (){
+    document.write("<br><br>")
+}
+
+pularLinha()
 mostrarNome("pete");
-document.write("<br><br>");
+pularLinha()
 mostrarNome("repete");
-document.write("<br><br>");
-mostrarNome("morreu");
+pularLinha()
+mostrarNome("morreu"); 
