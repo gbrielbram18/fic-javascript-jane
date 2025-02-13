@@ -1,5 +1,9 @@
-function mostrarNome (){
-    alert ("teste")
+function mostrarNome (nome){
+   document.write(nome)
 }
-
-mostrarNome();
+document.write("<br><br>");
+mostrarNome("pete");
+document.write("<br><br>");
+mostrarNome("repete");
+document.write("<br><br>");
+mostrarNome("morreu");
