@@ -6,7 +6,7 @@ function mostrarNome (nome){
 //mostrar frase 
 
 
-function mostrarFrase(){
+function mostrarFrase(frase){
     document.write(frase)
 }
 

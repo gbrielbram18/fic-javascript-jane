@@ -6,7 +6,7 @@
 
 */
 
-const names = [`João grilo`, `chico` , `rosinha`]
+const names = [`Camelo`, `chico` , `Moedas`]
 let tamplateNames = '';
 
 for (let i =0; i < names.length; i++) {
