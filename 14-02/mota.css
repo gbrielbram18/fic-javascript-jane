@@ -60,4 +60,21 @@ color: black;
 display: block;
 }
 
-#verifica-nota
+#verifica-nota{
+    /*cor de fundo*/
+    background: black;
+    /*border */
+    border: 1px solid ;
+    color: #fff;
+    /*espacamento dentro do elemento*/
+    padding: 5px;
+    /*espaçamento fora do elemento*/
+    margin-bottom: 10px;
+    /*cursor de maozinha*/
+    cursor: pointer;
+}
+
+#resultado{
+    color: #fff;
+    margin-bottom: 10px;
+}
