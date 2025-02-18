@@ -75,6 +75,17 @@ display: block;
 }
 
 #resultado{
-    color: #fff;
+    color: #000;
     margin-bottom: 10px;
+}
+
+
+#mes {
+    display: none;
+}
+
+#mes span{
+    color: red;
+    padding: 10px;
+    
 }
