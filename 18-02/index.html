@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1 id="titulo">Seja bem vindo!</h1>
     <h2 id="subtitulo">Sub</h2>
-    <h3 id="txt-email">Email do usuário</h3>
+    <h3 id="txtEmail">Email do usuário</h3>
     
     <form>
         <label for="nome">Nome</label>
         <input type="text" id="nome" />
         <br>
+        <br>
         <label for="cidade">Cidade</label>
         <input type="text" id="cidade" />
+        <br>
         <br>
         <label for="email">Email</label>
         <input type="text" id="email" />
@@ -27,6 +30,8 @@
     <hr>
 
     <button onclick="mudarCor()">Mudar cor de fundo</button>
+
+    <script src="./dom.js"></script>
     
 </body>
 </html>
