@@ -12,6 +12,8 @@ function somar(event){
     console.log(valor1.value);
     console.log(valor2.value);
 
+    
+
 
 //operação
 
@@ -55,7 +57,26 @@ function divsao(event){
     console.log(valor2.value)
 
 
-    let resultadoSub = Number(valor1.value) - Number(valor2.value)
+    let resultadoDivisao = Number(valor1.value) / Number(valor2.value)
 
-    document.getElementById("resultado").innerHTML = resultadoSub
+    document.getElementById("resultado").innerHTML = resultadoDivisao
 }
+
+
+
+
+
+function multi(event){
+    event.preventDefault();
+    console.log("Multi")
+
+
+    console.log(valor1.value)
+    console.log(valor2.value)
+
+
+    let resultadoMulti = Number(valor1.value) * Number(valor2.value)
+
+    document.getElementById("resultado").innerHTML = resultadoMulti
+}
+
