@@ -31,3 +31,15 @@ email.value = ""
 
 
 }
+
+
+function mudarCor(){
+    if(document.body.style.backgroundColor === "purple"){
+        document.body.style.backgroundColor = "";
+     } else {
+         document.body.style.backgroundColor = "purple"
+     }
+
+}
+
+
