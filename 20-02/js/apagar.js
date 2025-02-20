@@ -1,4 +1,4 @@
-const apagarBtn = document.getElementById("apagar")
+const apagarBtn = document.getElementById("apagar");
 
 apagarBtn.addEventListener("click" , function(){
 
@@ -6,6 +6,6 @@ apagarBtn.addEventListener("click" , function(){
 localStorage.clear();
 
 //limpa as lista de interface
-listaValores.innerHTML = ""
+listaValores.innerHTML = "";
 
 })
