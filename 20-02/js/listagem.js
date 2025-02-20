@@ -6,10 +6,18 @@ const listaValores = document.querySelector("#listaValores")
 carregarValoresSalvos();
 
 
-function carregarValoresSalvos(){
+function carregarValoresSalvos() {
     listaValores.innerHTML = "" //limpa a lisya antes de adicionar os valores
 
-    for (let i = 0; i < localStorage.length; i++){
+    for (let i = 0; i < localStorage.length; i++) {
         const chave = localStorage.key(i);
+        if (chave.startsWith("ValorSalvo")) {
+            const valor = localStorage.getItem(chave);
+
+            //criar um elelemto html
+            const listItem = document.createElement("li")
+            listItem.textContent = valor;
+            listaValores.appendChild(listItem)
+        }
     }
 }

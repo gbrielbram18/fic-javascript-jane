@@ -15,13 +15,16 @@ const valor = campo.value;
 
 
 
+    //limpar o campo apos salvar
+
+    campo.value = ""
+
+
+
+    //exibir valores
+    carregarValoresSalvos()
+
 
 
 });
-
-
-//limpar o campo apos salvar
-
-campo.value = ""
-
 
