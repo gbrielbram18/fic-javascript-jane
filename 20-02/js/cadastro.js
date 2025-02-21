@@ -4,6 +4,13 @@ const salvarBtn = document.querySelector("#salvar")
 //adicionar um evento no botao salvar 
 salvarBtn.addEventListener("click" , function(){
 const valor = campo.value;
+
+//validação
+
+if(campo.value ===""){
+    alert("preencha os campos")
+    return false
+}
    
 
 // salvar no locaStorage
@@ -25,6 +32,6 @@ const valor = campo.value;
     carregarValoresSalvos()
 
 
-
+    
 });
 

@@ -18,6 +18,8 @@ function carregarValoresSalvos() {
             const listItem = document.createElement("li")
             listItem.textContent = valor;
             listaValores.appendChild(listItem)
+        
+        
         }
     }
 }
