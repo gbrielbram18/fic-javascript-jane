@@ -38,7 +38,43 @@ const cars = [
 /*criar uma função e chama essa função displayCard, aqui mesmo*/
 
 function displayCard(){
-    console.log("displayCard")
+   
+    //variavel
+    const cardList = document.querySelector("#card-list");
+
+    cars.forEach((cars)=> {
+    
+        //criamos um elemento div pelo javaScript
+        const carDiv = document.createElement("div");
+        
+        //criamos uma class css car
+        carDiv.classList.add('car');
+
+        //criando um modelo
+        const cardModel = document.createElement("h2");
+
+        cardModel.textContent=`${cars.brand} ${cars.model}`;
+        
+        //imprimindo na tela as informações
+    
+        //criando o ano
+        //criando um p
+        const cardYear = document.createElement("p");
+        cardYear.textContent= `ano :${cars.year}`
+    
+        carDiv.appendChild(cardModel)
+        carDiv.appendChild(cardList)
+        carDiv.appendChild(cardYear)
+
+    })
+
+
+
+
+
 };
 
 //Chamar função
+displayCard()
+
+
