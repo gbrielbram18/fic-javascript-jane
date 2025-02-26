@@ -10,8 +10,8 @@ function App() {
     <>
       <div className="container">
         <Header title="Logo new" subTitle= "outros"/>
-
-
+        <h1></h1>
+        <p></p>
         <Banner/>
         <h1>seja bem vindo</h1>
         

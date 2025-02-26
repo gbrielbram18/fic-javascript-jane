@@ -1,8 +1,16 @@
+
 export default function(props) {
 
+    /* 
+        o children permite que voce passe e renderize 
+        conteudo 
+    */
+
+
+
     return (
-        <div>
-            banner
+        <div className="bannerStyle">
+            {props.children}
         </div>
     )
 }
