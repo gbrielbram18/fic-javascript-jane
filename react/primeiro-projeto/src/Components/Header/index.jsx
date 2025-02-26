@@ -1,5 +1,4 @@
-import "./style.css";
-
+import "./style.css"
 export default function  Header(props){
   
   /*
@@ -12,6 +11,4 @@ export default function  Header(props){
           <h1>{props.title}</h1>
       </header>
     )
-
-
 }
