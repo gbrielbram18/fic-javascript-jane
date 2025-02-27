@@ -4,6 +4,9 @@ import ImgCard from "./Components/imgCard";
 import img1 from "./assets/img1.jpg";
 import img2 from "./assets/img2.jpg";
 import img3 from "./assets/img3.jpg";
+import Card from "./Components/Card";
+
+
 import "./App.css";
 
 
@@ -20,17 +23,14 @@ function App() {
           <p>aqui vc encontra as melhores oportunidades</p>
         </Banner>
       <div>
+        
        <ImgCard caption="uma imagem legal" newImg={img1} />
-       <ImgCard caption="uma imagem legal" newImg={img2} />
-       <ImgCard caption="uma imagem legal" newImg={img3} />
+       
 
       </div>
        
 
-
-
-
-
+      <Card/>
       </div>
 
     </>
