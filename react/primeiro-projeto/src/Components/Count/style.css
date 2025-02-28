@@ -1,0 +1,22 @@
+.container {
+    max-width: 400px;
+    border-radius: 2px;
+    padding: 25px;
+    border: 1px solid blueviolet;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.container h1 {
+    padding: 10px;
+    color: rgb(5, 55, 143);;
+}
+
+.container button {
+    background-color: rgb(5, 55, 143);
+    border: 0;
+    padding: 6px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
